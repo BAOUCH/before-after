@@ -100,7 +100,7 @@ function loadGeoRaster(url) {
     return parseGeoraster(url)
         .then(georaster => new GeoRasterLayer({
             georaster: georaster,
-            resolution: 250, // Ajuster la résolution selon le besoin
+            resolution: 120, // Ajuster la résolution selon le besoin
         }));
 }
 
